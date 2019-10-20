@@ -1,4 +1,6 @@
 {% load static %}
+{% load socialaccount %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -119,7 +121,7 @@
                 <a href="{% url 'account_logout' %}" class="hero-cta">LOGOUT</a>
                
                 {% else %}
-                <a href="{% url 'account_login' %}" class="hero-cta">LOGIN</a>
+                <p><a href="{% provider_login_url 'google' %}">Log In with Gmail</a></p>
                 {% endif %}
             </div>
         </section>

@@ -121,3 +121,4 @@ class ProjectCreateView(CreateView):
             Project.save()
             return HttpResponseRedirect(reverse_lazy('home'))
         return render(request, 'addproject.html', {'form': form})
+
