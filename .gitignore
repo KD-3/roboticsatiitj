@@ -1,16 +1,23 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
+=======
+>>>>>>> ef7b927544993e4d59a58b17fc1615f9de7bba5d
 __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 # C extensions
 *.so
 
+=======
+>>>>>>> ef7b927544993e4d59a58b17fc1615f9de7bba5d
 # Distribution / packaging
 .Python
 env/
 .env
 build/
+<<<<<<< HEAD
 *.sqlite3
 migrations/
 staticfiles/
@@ -71,6 +78,16 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
+=======
+
+*.sqlite3
+migrations/
+staticfiles/
+ads/
+media/
+.idea/
+
+>>>>>>> ef7b927544993e4d59a58b17fc1615f9de7bba5d
 # dotenv
 .env
 
@@ -79,6 +96,7 @@ celerybeat-schedule
 venv/
 ENV/
 
+<<<<<<< HEAD
 
 # Rope project settings
 .ropeproject
@@ -89,3 +107,8 @@ ENV/
 # mypy
 .mypy_cache/
 .DS_Store
+=======
+# mypy
+.mypy_cache/
+.DS_Store
+>>>>>>> ef7b927544993e4d59a58b17fc1615f9de7bba5d
